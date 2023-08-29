@@ -1,0 +1,114 @@
+.post{
+  background-color: lightgray;
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__list{
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+}
+ul{
+  list-style: none;
+}
+header {
+  width: 100vw;
+  border-bottom: 3px solid rgb(51, 159, 192);
+  position: absolute;
+  top: 0;
+  background-color: rgb(187, 180, 180);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header h1{
+  font-size: 2rem;
+  color: rgb(51, 159, 192);
+}
+
+
+.icon{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.icon:hover{
+  cursor: pointer;
+}
+
+
+.post__container{
+  border: 1px solid rgb(172, 169, 169);
+  width: 600px;
+  margin-bottom: 10vh;
+  position:relative;
+  /* border: 1px solid; */
+}
+
+.post__button{
+  text-decoration: none;
+  color: grey;
+  margin-right: 10px;
+}
+
+.post__button:hover{
+  cursor: pointer;
+  color: rgb(51, 159, 192);
+}
+
+li{
+  display: flex;
+  flex-direction: column wrap;
+  justify-content: center;
+}
+
+.user__name{
+  font-size: 1.2rem;  
+}
+
+.user__location{
+  color: gray;
+}
+.post__header, .post__description{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post__header{
+  height: 6vh;
+  margin-bottom: 10px;
+}
+
+.user__img{
+  width: 600px;
+  height: 40vh;
+  display: block;
+}
+
+.user__date{
+  position: absolute;
+  right: 1rem;
+  color: gray;
+}
+
+.user__likes{
+  color: gray;
+}
+
+.user__description{
+  font-size: 1.3rem;
+}
